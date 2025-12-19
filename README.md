@@ -4,8 +4,9 @@
 
 ## Estructura del proyecto
 
-- `todoweb/` - Contiene todos los archivos del proyecto:
-  - `index.html` - Página principal
-  - `CSS/` - Estilos
-  - `js/` - Scripts
-  - `imagenes varias/` - Recursos gráficos
+- `webminireto/` - Contiene todos los archivos del proyecto:
+  - `codigo_fuente` - Carpeta que incluye archivos HTML,CSS Y JSON
+    -..
+  - `fotos/` - Carpeta de fotos
+     -..
+ 
