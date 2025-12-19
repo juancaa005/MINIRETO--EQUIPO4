@@ -13,6 +13,9 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* NAV */
@@ -197,6 +200,7 @@ main {
     padding: 40px 20px;
     max-width: 1000px;
     margin: auto;
+    flex: 1;
 }
 
 /* SECCIONES */
@@ -229,7 +233,7 @@ table {
 }
 
 th, td {
-    padding: 14px;
+    padding: 18px;
     text-align: center;
     border: 1px solid #666;
 }
@@ -248,12 +252,24 @@ tr:hover {
     background: #f0e68c;
 }
 
+/* CONTENEDOR PUNTUACIONES */
+.puntuaciones-container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 900px;
+    margin: 20px auto;
+    border: 3px outset #666;
+    font-size: 1.2em;
+    color: #fff;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
     background: linear-gradient(to bottom, #4682b4, #00bfff);
-    margin-top: 40px;
     font-size: 0.9rem;
     color: #222;
     border-top: 3px ridge #666;
@@ -323,13 +339,14 @@ footer {
 }
 
 .galeria-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    display: flex;
+    justify-content: center;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .galeria-grid img {
-    width: 100%;
+    width: 150px;
     height: 150px;
     object-fit: cover;
     border: 3px outset #666;
