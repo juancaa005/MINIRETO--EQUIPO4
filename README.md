@@ -6,7 +6,8 @@
 
 - `webminireto/` - Contiene todos los archivos del proyecto:
   - `codigo_fuente` - Carpeta que incluye archivos HTML,CSS Y JSON
-    -`..`
+    -`../`
   - `fotos/` - Carpeta de fotos
-     -`..`
+     -`../`
+- `README.md/`
  
