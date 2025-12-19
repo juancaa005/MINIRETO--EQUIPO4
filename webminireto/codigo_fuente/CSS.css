@@ -281,7 +281,9 @@ footer {
     transform: translate(-50%, -50%);
     background: linear-gradient(to bottom, #f0e68c, #daa520);
     color: #222;
-    padding: 20px;
+    padding: 40px;
+    width: 500px;
+    max-width: 90%;
     text-align: center;
     display: none;
     z-index: 1000;
@@ -290,16 +292,19 @@ footer {
 }
 
 #cookie-banner p {
-    margin: 0 0 10px 0;
+    margin: 0 0 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
 }
 
 #cookie-banner button {
     background: linear-gradient(to bottom, #c71585, #ff1493);
     color: #fff;
     border: 2px outset #666;
-    padding: 10px 20px;
+    padding: 15px 30px;   /* más grande */
     cursor: pointer;
     font-weight: bold;
+    font-size: 16px;
     text-shadow: 1px 1px #333;
 }
 
