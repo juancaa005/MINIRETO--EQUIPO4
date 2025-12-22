@@ -1,2 +1,0 @@
-Esta base de datos está diseñada de manera que los jugadores reciben puntuaciones por ganar en los juegos disponibles dentro de una fecha determinada, como si fuese un torneo, la puntuación global es la suma de los puntos que han acumulado dentro de la fecha de la competición. 
-Los juegos pueden jugarse múltiples veces cada uno y dan una cantidad fija de puntos por victoria.
