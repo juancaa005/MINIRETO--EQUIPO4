@@ -4,7 +4,7 @@
 **Centro:** IES Miguel Herrero (Cantabria)  
 **Equipo:** DAW1 - EQUIPO 4  
 **Duración:** 5 días lectivos  
-**Repositorio GitHub:** [🔗 Enlace al repositorio]()
+**Repositorio GitHub:** [🔗 Enlace al repositorio](https://github.com/juancaa005/MINIRETO--EQUIPO4.git)
 
 ---
 
@@ -24,14 +24,15 @@
 
 ### 🗃️ **Bases de Datos**
 
-- [📄 Diagrama E/R]()
-- [📄 Diagrama Relacional]()
+- [📄 Diagrama E/R](base%20de%20datos/Base%20de%20datos%20mini%20reto.docx)
+- [📄 Archivo SQL](base%20de%20datos/Base%20datos%20minireto.sql)
 
 ---
 
 ### 💻 **Programación (Java)**
 
-- [📦 Código fuente Java (documentado con JavaDoc)]()
+- [📦 Código fuente Java (Ahorcado)](Java/Ahorcado)
+- [📦 Código fuente Java (Hundir la flota)](HundirLaFlota)
 - [🖥️ Ejecutable .jar de la aplicación]()
 
 
@@ -50,3 +51,4 @@
  - [🗂️ Máquina virtual con el archivo .jar (.ova)]() 
 
 ---
+
